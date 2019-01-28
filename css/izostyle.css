@@ -1,0 +1,108 @@
+body {
+  font-family: "Muli", "Merriweather", "Georgia", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+}
+.carousel {
+  width: 80% !important;
+  height: 50% !important ;
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+}
+input {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  background-color: #733279;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  width: 100px;
+  height: 50px;
+  padding: 0%;
+}
+.nav li a {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+.nav li a:hover {
+  background-color: #f5f5f5 !important ;
+  color: #733279;
+}
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#newsletter {
+  margin: 5% 0%;
+  background-color: #733279;
+  color: #f5f5f5;
+  font-family: "Muli", "Merriweather", "Georgia", serif;
+  text-align: center;
+  height: 50%;
+  padding: 5%;
+}
+.selection {
+  display: flex;
+  justify-content: center;
+}
+#button {
+  background-color: #f3cfd3;
+}
+.select-email {
+  margin-left: 1%;
+}
+.btn-abonnez {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 3%;
+}
+
+.col-md-4 {
+  height: 400px !important;
+  margin-bottom: 20px;
+}
+.thumbnail a img {
+  height: 230px !important;
+}
+footer {
+  background-color: #f5f5f5;
+}
+i {
+  color: #733279;
+}
+.bas {
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fas {
+  margin: 10px;
+}
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+.socialmedia > a {
+  margin: 1%;
+}
+.fa:hover {
+  color: #f3cfd3;
+}
+.thumbnail {
+  height: 100%;
+}
+h4 {
+  text-align: center;
+}

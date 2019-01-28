@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <title>IZO commande</title>
+    <link href="../css/commande.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="../js/commande.js" async></script>
+</head>
+<body>
+  <header>
+
+      <nav class="navbar navbar-fixed-top " data-spy="scroll">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="../image/logo.jpg" alt="IZOlogo" height="100%" width="100%">
+        </a>
+        <ul class="nav navbar-nav">
+          <li><a href="menu.html" >Menu</a></li>
+          <li><a href="Commande.html">Commande</a></li>
+          <li><a href="#contactus">Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="searching" class="ousman">
+      <form action="#" method="POST" id="search-item">
+        <label>Recherche: </label>
+        <input
+          style="width: 70%;"
+          class="mousedown"
+          type="text"
+          placeholder=" rechercher votre food"
+        />
+        <!-- <button class="mousedown" type="submit" id="search-btn">Search</button> -->
+        </form>
+    </section>
+
+    <section id="main">
+      <main>
+
+          <div id="result">
+              <h1> Recherche non aboutie! </h1>
+            </div>
+
+
+        <div class="item-contener">
+          <!-- <div class="imoji inner-contener"><button class="x fav" onclick="removeElement(dlete)">❌</button><div class="price">dt 120</div></div> -->
+          <div class="imoji inner-contener">
+            <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+            <div class="price"> <span style="margin-right:2px;">12</span>dt</div>
+          </div>
+          <div class="item inner-contener">
+            <img
+              src="../image/commande/veggypasta.jpg"
+              alt="#"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="description inner-contener">
+            <div class="name desc">Veggy Pasta</div>
+            <div class="middle-line"></div>
+            <div class="item-type desc">Pasta</div>
+          </div>
+          <div class="counter inner-contener">
+              <button id="minus" class="take-in-out">➖</button>
+
+            <div class="count">0</div>
+            <button id="plus" class="take-in-out">➕</button>
+            <div></div>
+          </div>
+          <div class="prix price inner-contener">
+              
+            <div class="amount" style="margin-right:2px;">prix</div>
+
+            <div class="currency">dt</div>
+          </div>
+        </div>
+
+        <div class="item-contener">
+          <div class="imoji inner-contener">
+            <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+            <div class="price"> <span style="margin-right:2px;">9</span>dt</div>
+          </div>
+          <div class="item inner-contener">
+            <img src="../image/commande/pastavariee.jpg" alt="#" width="120px" height="100px" />
+          </div>
+          <div class="description inner-contener">
+            <div class="name desc">Pasta variée</div>
+            <div class="middle-line"></div>
+            <div class="item-type desc">Pasta</div>
+          </div>
+          <div class="counter inner-contener">
+            <button id="minus" class="take-in-out">➖</button>
+            <div class="count">0</div>
+            <button id="plus" class="take-in-out">➕</button>
+            <div></div>
+          </div>
+          <div class="prix price inner-contener">
+            
+            <div class="amount" style="margin-right:2px;">prix</div>
+            <div class="currency">dt</div>
+          </div>
+        </div>
+
+        <div class="item-contener">
+          <div class="imoji inner-contener">
+            <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+            <div class="price"><span style="margin-right:2px;">10</span>dt</div>
+          </div>
+          <div class="item inner-contener">
+            <img src="../image/commande/sausagepasta.jpg" alt="#" width="120px" height="100px" />
+          </div>
+          <div class="description inner-contener">
+            <div class="name desc">Sausage Pasta</div>
+            <div class="middle-line"></div>
+            <div class="item-type desc">Pasta</div>
+          </div>
+          <div class="counter inner-contener">
+            <button id="minus" class="take-in-out">➖</button>
+            <div class="count">0</div>
+            <button id="plus" class="take-in-out">➕</button>
+            <div></div>
+          </div>
+          <div class="prix price inner-contener">
+            
+              <div class="amount" style="margin-right:2px;">prix</div>
+            <div class="currency">dt</div>
+          </div>
+        </div>
+
+        <div class="item-contener">
+          <div class="imoji inner-contener">
+            <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+            <div class="price"> <span style="margin-right:2px;">18</span>dt</div>
+          </div>
+          <div class="item inner-contener">
+            <img src="../image/commande/mashroompizza.jpg" alt="#" width="120px" height="100px" />
+          </div>
+          <div class="description inner-contener">
+            <div class="name desc">Mashroom Pizza</div>
+            <div class="middle-line"></div>
+            <div class="item-type desc">Pizza</div>
+          </div>
+          <div class="counter inner-contener">
+            <button id="minus" class="take-in-out">➖</button>
+            <div class="count">0</div>
+            <button id="plus" class="take-in-out">➕</button>
+            <div></div>
+          </div>
+          <div class="prix price inner-contener">
+            
+            <div class="amount" style="margin-right:2px;">prix</div>
+            <div class="currency">dt</div>
+          </div>
+        </div>
+
+        <div class="item-contener">
+          <div class="imoji inner-contener">
+            <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+            <div class="price"><span style="margin-right:2px;">14</span>dt </div>
+          </div>
+          <div class="item inner-contener">
+            <img src="../image/commande/pepperonipizza.jpg" alt="#" width="120px" height="100px" />
+          </div>
+          <div class="description inner-contener">
+            <div class="name desc">Pepperoni Pizza</div>
+            <div class="middle-line"></div>
+            <div class="item-type desc">Pizza</div>
+          </div>
+          <div class="counter inner-contener">
+            <button id="minus" class="take-in-out">➖</button>
+            <div class="count">0</div>
+            <button id="plus" class="take-in-out">➕</button>
+            <div></div>
+          </div>
+          <div class="prix price inner-contener">
+            
+            <div class="amount" style="margin-right:2px;">prix</div>
+            <div class="currency">dt</div>
+          </div>
+        </div>
+
+        <div class="item-contener">
+            <!-- <div class="imoji inner-contener"><button class="x fav" onclick="removeElement(dlete)">❌</button><div class="price">dt 120</div></div> -->
+            <div class="imoji inner-contener">
+              <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+              <div class="price"><span style="margin-right:2px;">13</span>dt</div>
+            </div>
+            <div class="item inner-contener">
+              <img
+                src="../image/commande/pizzaextracheese.jpg"
+                alt="#"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <div class="description inner-contener">
+              <div class="name desc">Pizza extracheese</div>
+              <div class="middle-line"></div>
+              <div class="item-type desc">Pizza</div>
+            </div>
+            <div class="counter inner-contener">
+              <button id="minus" class="take-in-out">➖</button>
+              <div class="count">0</div>
+              <button id="plus" class="take-in-out">➕</button>
+              <div></div>
+            </div>
+            <div class="prix price inner-contener">
+              
+              <div class="amount" style="margin-right:2px;">prix</div>
+              <div class="currency">dt</div>
+            </div>
+          </div>
+
+          <div class="item-contener">
+            <div class="imoji inner-contener">
+              <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+              <div class="price"> <span style="margin-right:2px;">15</span>dt</div>
+            </div>
+            <div class="item inner-contener">
+              <img src="../image/commande/hambourger.jpg"alt="#" width="120px" height="100px" />
+            </div>
+            <div class="description inner-contener">
+              <div class="name desc">Hamburger</div>
+              <div class="middle-line"></div>
+              <div class="item-type desc">Sandwich</div>
+            </div>
+            <div class="counter inner-contener">
+              <button id="minus" class="take-in-out">➖</button>
+              <div class="count">0</div>
+              <button id="plus" class="take-in-out">➕</button>
+              <div></div>
+            </div>
+            <div class="prix price inner-contener">
+              
+              <div class="amount" style="margin-right:2px;">prix</div>
+              <div class="currency">dt</div>
+            </div>
+          </div>
+
+          <div class="item-contener">
+            <div class="imoji inner-contener">
+              <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+              <div class="price"> <span style="margin-right:2px;">9</span>dt</div>
+            </div>
+            <div class="item inner-contener">
+              <img src="../image/commande/sandwitchfarci.jpg" alt="#" width="120px" height="100px" />
+            </div>
+            <div class="description inner-contener">
+              <div class="name desc">Sandwich farci</div>
+              <div class="middle-line"></div>
+              <div class="item-type desc">Sandwich</div>
+            </div>
+            <div class="counter inner-contener">
+              <button id="minus" class="take-in-out">➖</button>
+              <div class="count">0</div>
+              <button id="plus" class="take-in-out">➕</button>
+              <div></div>
+            </div>
+            <div class="prix price inner-contener">
+              
+              <div class="amount" style="margin-right:2px;">prix</div>
+              <div class="currency">dt</div>
+            </div>
+          </div>
+
+          <div class="item-contener">
+            <div class="imoji inner-contener">
+              <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+              <div class="price"> <span style="margin-right:2px;">18</span>dt</div>
+            </div>
+            <div class="item inner-contener">
+              <img src="../image/commande/sandwich.jpg" alt="#" width="120px" height="100px" />
+            </div>
+            <div class="description inner-contener">
+              <div class="name desc">Sandwich Jambon</div>
+              <div class="middle-line"></div>
+              <div class="item-type desc">Sandwich</div>
+            </div>
+            <div class="counter inner-contener">
+              <button id="minus" class="take-in-out">➖</button>
+              <div class="count">0</div>
+              <button id="plus" class="take-in-out">➕</button>
+              <div></div>
+            </div>
+            <div class="prix price inner-contener">
+              
+              <div class="amount" style="margin-right:2px;">prix</div>
+              <div class="currency">dt</div>
+            </div>
+          </div>
+
+          <div class="item-contener">
+            <div class="imoji inner-contener">
+              <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+              <div class="price"> <span style="margin-right:2px;">9</span>dt</div>
+            </div>
+            <div class="item inner-contener">
+              <img src="../image/commande/boeufsaute.jpg" alt="#" width="120px" height="100px" />
+            </div>
+            <div class="description inner-contener">
+              <div class="name desc">Boeuf Sauté</div>
+              <div class="middle-line"></div>
+              <div class="item-type desc">Viandes</div>
+            </div>
+            <div class="counter inner-contener">
+              <button id="minus" class="take-in-out">➖</button>
+              <div class="count">0</div>
+              <button id="plus" class="take-in-out">➕</button>
+              <div></div>
+            </div>
+            <div class="prix price inner-contener">
+              
+              <div class="amount" style="margin-right:2px;">prix</div>
+              <div class="currency">dt</div>
+            </div>
+          </div>
+
+
+          <div class="item-contener">
+              <!-- <div class="imoji inner-contener"><button class="x fav" onclick="removeElement(dlete)">❌</button><div class="price">dt 120</div></div> -->
+              <div class="imoji inner-contener">
+                <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                <div class="price"> <span style="margin-right:2px;">19</span>dt</div>
+              </div>
+              <div class="item inner-contener">
+                <img
+                  src="../image/commande/tarteviande.jpg"
+                  alt="#"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <div class="description inner-contener">
+                <div class="name desc">Tarte viande haché</div>
+                <div class="middle-line"></div>
+                <div class="item-type desc">Viandes</div>
+              </div>
+              <div class="counter inner-contener">
+                <button id="minus" class="take-in-out">➖</button>
+                <div class="count">0</div>
+                <button id="plus" class="take-in-out">➕</button>
+                <div></div>
+              </div>
+              <div class="prix price inner-contener">
+                
+               <div class="amount" style="margin-right:2px;">prix</div>
+                <div class="currency">dt</div>
+              </div>
+            </div>
+    
+            <div class="item-contener">
+              <div class="imoji inner-contener">
+                <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                <div class="price"> <span style="margin-right:2px;">15</span>dt</div>
+              </div>
+              <div class="item inner-contener">
+                <img src="../image/commande/grilledbeef.jpg" alt="#" width="120px" height="100px" />
+              </div>
+              <div class="description inner-contener">
+                <div class="name desc">Boeuf grillé</div>
+                <div class="middle-line"></div>
+                <div class="item-type desc">Viandes</div>
+              </div>
+              <div class="counter inner-contener">
+                <button id="minus" class="take-in-out">➖</button>
+                <div class="count">0</div>
+                <button id="plus" class="take-in-out">➕</button>
+                <div></div>
+              </div>
+              <div class="prix price inner-contener">
+                
+               <div class="amount" style="margin-right:2px;">prix</div>
+                <div class="currency">dt</div>
+              </div>
+            </div>
+    
+            <div class="item-contener">
+              <div class="imoji inner-contener">
+                <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                <div class="price"> <span style="margin-right:2px;">19</span>dt</div>
+              </div>
+              <div class="item inner-contener">
+                <img src="../image/commande/chickenescaloperolled.jpg" alt="#" width="120px" height="100px" />
+              </div>
+              <div class="description inner-contener">
+                <div class="name desc">Escalope roulé</div>
+                <div class="middle-line"></div>
+                <div class="item-type desc">Volailles</div>
+              </div>
+              <div class="counter inner-contener">
+                <button id="minus" class="take-in-out">➖</button>
+                <div class="count">0</div>
+                <button id="plus" class="take-in-out">➕</button>
+                <div></div>
+              </div>
+              <div class="prix price inner-contener">
+                
+               <div class="amount" style="margin-right:2px;">prix</div>
+                <div class="currency">dt</div>
+              </div>
+            </div>
+    
+            <div class="item-contener">
+              <div class="imoji inner-contener">
+                <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                <div class="price"> <span style="margin-right:2px;">18</span>dt</div>
+              </div>
+              <div class="item inner-contener">
+                <img src="../image/commande/escalopepouletpane.jpg" alt="#" width="120px" height="100px" />
+              </div>
+              <div class="description inner-contener">
+                <div class="name desc">Escalope Panné</div>
+                <div class="middle-line"></div>
+                <div class="item-type desc">Volailles</div>
+              </div>
+              <div class="counter inner-contener">
+                <button id="minus" class="take-in-out">➖</button>
+                <div class="count">0</div>
+                <button id="plus" class="take-in-out">➕</button>
+                <div></div>
+              </div>
+              <div class="prix price inner-contener">
+                
+               <div class="amount" style="margin-right:2px;">prix</div>
+                <div class="currency">dt</div>
+              </div>
+            </div>
+    
+            <div class="item-contener">
+              <div class="imoji inner-contener">
+                <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                <div class="price"> <span style="margin-right:2px;">10</span>dt</div>
+              </div>
+              <div class="item inner-contener">
+                <img src="../image/commande/escalopeVeaunormande.jpg" alt="#" width="120px" height="100px" />
+              </div>
+              <div class="description inner-contener">
+                <div class="name desc">Escalope Normande</div>
+                <div class="middle-line"></div>
+                <div class="item-type desc">Volailles</div>
+              </div>
+              <div class="counter inner-contener">
+                <button id="minus" class="take-in-out">➖</button>
+                <div class="count">0</div>
+                <button id="plus" class="take-in-out">➕</button>
+                <div></div>
+              </div>
+              <div class="prix price inner-contener">
+                
+               <div class="amount" style="margin-right:2px;">prix</div>
+                <div class="currency">dt</div>
+              </div>
+            </div>
+
+
+
+
+            <div class="item-contener">
+                <!-- <div class="imoji inner-contener"><button class="x fav" onclick="removeElement(dlete)">❌</button><div class="price">dt 120</div></div> -->
+                <div class="imoji inner-contener">
+                  <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                  <div class="price"> <span style="margin-right:2px;">12</span>dt</div>
+                </div>
+                <div class="item inner-contener">
+                  <img
+                    src="../image/commande/paella.jpg"
+                    alt="#"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div class="description inner-contener">
+                  <div class="name desc">Paella</div>
+                  <div class="middle-line"></div>
+                  <div class="item-type desc">Fruits de mer</div>
+                </div>
+                <div class="counter inner-contener">
+                  <button id="minus" class="take-in-out">➖</button>
+                  <div class="count">0</div>
+                  <button id="plus" class="take-in-out">➕</button>
+                  <div></div>
+                </div>
+                <div class="prix price inner-contener">
+                  
+                 <div class="amount" style="margin-right:2px;">prix</div>
+                  <div class="currency">dt</div>
+                </div>
+              </div>
+      
+              <div class="item-contener">
+                <div class="imoji inner-contener">
+                  <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                  <div class="price"> <span style="margin-right:2px;">15</span>dt</div>
+                </div>
+                <div class="item inner-contener">
+                  <img src="../image/commande/poissongrille.jpg" alt="#" width="120px" height="100px" />
+                </div>
+                <div class="description inner-contener">
+                  <div class="name desc">Poisson grillé</div>
+                  <div class="middle-line"></div>
+                  <div class="item-type desc">Fruits de mer</div>
+                </div>
+                <div class="counter inner-contener">
+                  <button id="minus" class="take-in-out">➖</button>
+                  <div class="count">0</div>
+                  <button id="plus" class="take-in-out">➕</button>
+                  <div></div>
+                </div>
+                <div class="prix price inner-contener">
+                  
+                 <div class="amount" style="margin-right:2px;">prix</div>
+                  <div class="currency">dt</div>
+                </div>
+              </div>
+      
+              <div class="item-contener">
+                <div class="imoji inner-contener">
+                  <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                  <div class="price"> <span style="margin-right:2px;">100</span>dt</div>
+                </div>
+                <div class="item inner-contener">
+                  <img src="../image/commande/plaeaudefruitsdemer.jpg" alt="#" width="120px" height="100px" />
+                </div>
+                <div class="description inner-contener">
+                  <div class="name desc">Plateau fruits de mer </div>
+                  <div class="middle-line"></div>
+                  <div class="item-type desc">Fruits de mer</div>
+                </div>
+                <div class="counter inner-contener">
+                  <button id="minus" class="take-in-out">➖</button>
+                  <div class="count">0</div>
+                  <button id="plus" class="take-in-out">➕</button>
+                  <div></div>
+                </div>
+                <div class="prix price inner-contener">
+                  
+                 <div class="amount" style="margin-right:2px;">prix</div>
+                  <div class="currency">dt</div>
+                </div>
+              </div>
+      
+              <div class="item-contener">
+                <div class="imoji inner-contener">
+                  <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                  <div class="price"> <span style="margin-right:2px;">10</span>dt</div>
+                </div>
+                <div class="item inner-contener">
+                  <img src="../image/commande/cheescake.jpg" alt="#" width="120px" height="100px" />
+                </div>
+                <div class="description inner-contener">
+                  <div class="name desc">Cheescake</div>
+                  <div class="middle-line"></div>
+                  <div class="item-type desc">Dessert</div>
+                </div>
+                <div class="counter inner-contener">
+                  <button id="minus" class="take-in-out">➖</button>
+                  <div class="count">0</div>
+                  <button id="plus" class="take-in-out">➕</button>
+                  <div></div>
+                </div>
+                <div class="prix price inner-contener">
+                  
+                 <div class="amount" style="margin-right:2px;">prix</div>
+                  <div class="currency">dt</div>
+                </div>
+              </div>
+      
+              <div class="item-contener">
+                <div class="imoji inner-contener">
+                  <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                  <div class="price"><span style="margin-right:2px;">8</span>dt </div>
+                </div>
+                <div class="item inner-contener">
+                  <img src="../image/commande/rusberrychocolate.jpg" alt="#" width="120px" height="100px" />
+                </div>
+                <div class="description inner-contener">
+                  <div class="name desc">Frambochocolate</div>
+                  <div class="middle-line"></div>
+                  <div class="item-type desc">Dessert</div>
+                </div>
+                <div class="counter inner-contener">
+                  <button id="minus" class="take-in-out">➖</button>
+                  <div class="count">0</div>
+                  <button id="plus" class="take-in-out">➕</button>
+                  <div></div>
+                </div>
+                <div class="prix price inner-contener">
+                  
+                 <div class="amount" style="margin-right:2px;">prix</div>
+                  <div class="currency">dt</div>
+                </div>
+              </div>
+
+
+
+              <div class="item-contener">
+                  <!-- <div class="imoji inner-contener"><button class="x fav" onclick="removeElement(dlete)">❌</button><div class="price">dt 120</div></div> -->
+                  <div class="imoji inner-contener">
+                    <!-- <button class="x fav" onclick="removeElement()">❌</button> -->
+                    <div class="price"><span style="margin-right:2px;">10</span>dt </div>
+                  </div>
+                  <div class="item inner-contener">
+                    <img
+                      src="../image/commande/fondantauchocolat.jpg"
+                      alt="#"
+                      width="100%"
+                      height="100%"
+                    />
+                  </div>
+                  <div class="description inner-contener">
+                    <div class="name desc">Fondant au chocolat</div>
+                    <div class="middle-line"></div>
+                    <div class="item-type desc">Dessert</div>
+                  </div>
+                  <div class="counter inner-contener">
+                    <button id="minus" class="take-in-out">➖</button>
+                    <div class="count">0</div>
+                    <button id="plus" class="take-in-out">➕</button>
+                    <div></div>
+                  </div>
+                  <div class="prix price inner-contener">
+                    
+                   <div class="amount" style="margin-right:2px;">prix</div>
+                    <div class="currency">dt</div>
+                  </div>
+                </div>
+
+      </main>
+      
+      <aside id="asideBar">
+        <h1>CART</h1>
+        <br />
+        <h2>L'addtion fait:</h2>
+        <div id="amount-lbl">
+          <h3 style="color: #733279; width: 50px;"> </h3>
+          <span style="margin-right:2px;margin-left: 4px">  dt</span>
+
+        </div>
+
+        <form id="radioBox" class="form-check" action="#">
+          <div class="rBox">
+            <input id="rBox-cmd" type="radio" name="typeOrder" /><label>
+              Réserver</label
+            >
+          </div>
+          <div class="rBox">
+            <input id="rBox-res" type="radio" name="typeOrder" /><label>
+              Commander
+            </label>
+          </div>
+        </form>
+
+        <!-- booking a table -->
+        <div class="info" id="booking">
+          <form class="book" action="#">
+            <fieldset>
+              <legend>Réservation de table:</legend>
+              <img
+                src="../image/commande/reservation.jpg"
+                width="90%"
+                height="100px"
+              /><br />
+              <div class="inputs">
+                <label>Name: </label
+                ><input type="text" placeholder=" Votre nom" required />
+                <label>Date: </label><input type="date" required />
+                <label>Heure: </label><input type="time" required />
+                <label>Nombre: </label
+                ><input
+                  type="number"
+                  min="0"
+                  max="10"
+                  placeholder=" numbre de personnes"
+                  style="width: 50%"
+                  required
+                />
+                <label>Numéro: </label>
+                <input type="tel" placeholder=" téléphone" required />
+                <input class="btn-md btn-default" type="submit" value="Envoye" /> <br />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <!-- delivery -->
+        <div class="info" id="delivery">
+          <form class="book" action="#">
+            <fieldset>
+              <legend>Livration à domicile:</legend>
+              <img
+                src="../image/commande/livraison.jpg"
+                width="90%"
+                height="100px"
+              /><br />
+              <div class="inputs">
+                <label>Name: </label
+                ><input type="text" placeholder=" Votre nom" required />
+                <label>Address: </label
+                ><input
+                  type="address"
+                  placeholder=" votre address"
+                  required
+                />
+                <label>Numéro: </label
+                ><input type="tel" placeholder=" téléphone" required />
+                <input type="submit" value="Envoye" /> <br />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </aside>
+    </section>
+
+
+
+    <footer>
+        <div class="bas container">
+    
+            <img class="col-sm-8" src="../image/index/map.jpg" frameborder="0"style="height:50%;width:50%"></img>
+            <div id="aboutus" class="col-sm-4">
+                <h4> IZO Food :</h4>
+                <br>
+                <i class='fas fa-wifi' style='font-size:20px;'> </i>  Free Wifi
+                <br>
+                <i class='fas fa-at' style='font-size:20px'></i> <a href="#"> izofood@food.tn </a>
+                <br>
+                <i class='fas fa-map-marker-alt' style='font-size:20px'></i>  Rue du Lac Biwa, Tunis
+                <br>
+                <i class='fas fa-phone' style='font-size:20px'></i> 99 999 999
+            </div>   
+        </div>
+        <div id="contactus" class="container">
+            
+            <div class="socialmedia">
+                <a href="www.facebook.com/izofood" >
+                    <i class="fa fa-facebook-f"style='font-size:20px' ></i>
+                </a>
+                <a href="www.twitter.com/izofood">
+                    <i class="fa fa-twitter" style='font-size:20px'></i>
+                </a> 
+                <a href="www.youtube.com/izofood">
+                    <i class="fa fa-youtube-play" style='font-size:20px'></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <hr style="border:1px solid #733279">
+            <p style="text-align:center"> © Copyright 2019 </p>
+        </div>
+    </footer>
+</body>
+</html>
