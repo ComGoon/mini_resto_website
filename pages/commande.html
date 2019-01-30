@@ -16,38 +16,37 @@
     <script src="../js/commande.js" async></script>
 </head>
 <body>
-  <header>
+  <header style="margin-bottom: 5%">
 
       <nav class="navbar navbar-fixed-top " data-spy="scroll">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
           <img class="logo" src="../image/logo.jpg" alt="IZOlogo" height="100%" width="100%">
         </a>
         <ul class="nav navbar-nav">
-          <li><a href="menu.html" >Menu</a></li>
-          <li><a href="Commande.html">Commande</a></li>
-          <li><a href="#contactus">Contact </a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="commande.html">Commande </a></li>
+          <li><a href="#contactus">Contact</a></li>
         </ul>
       </nav>
     </header>
     <section id="searching" class="ousman">
-      <form action="#" method="POST" id="search-item">
-        <label>Recherche: </label>
+      <form action="#" method="POST" id="search-item" style="width: 100%; display: flex; align-items: center;">
+        <label style="margin-right: 1em">Recherche : </label>
         <input
-          style="width: 70%;"
-          class="mousedown"
+          style="width: 50%; height: 34px;"
           type="text"
           placeholder=" rechercher votre food"
         />
         <!-- <button class="mousedown" type="submit" id="search-btn">Search</button> -->
         </form>
     </section>
-
+      <!-- <h1>jlkfdj</h1> -->
     <section id="main">
       <main>
 
-          <div id="result">
-              <h1> Recherche non aboutie! </h1>
-            </div>
+          <div id="result" >
+              <h1> Recherche non aboutie! :(</h1>
+          </div>
 
 
         <div class="item-contener">
@@ -637,9 +636,9 @@
       </main>
       
       <aside id="asideBar">
-        <h1>CART</h1>
+        <h1><u>PANIER</u></h1>
         <br />
-        <h2>L'addtion fait:</h2>
+        <h2>L'addition fait:</h2>
         <div id="amount-lbl">
           <h3 style="color: #733279; width: 50px;"> </h3>
           <span style="margin-right:2px;margin-left: 4px">  dt</span>
@@ -670,7 +669,7 @@
                 height="100px"
               /><br />
               <div class="inputs">
-                <label>Name: </label
+                <label>Nom: </label
                 ><input type="text" placeholder=" Votre nom" required />
                 <label>Date: </label><input type="date" required />
                 <label>Heure: </label><input type="time" required />
@@ -694,19 +693,19 @@
         <div class="info" id="delivery">
           <form class="book" action="#">
             <fieldset>
-              <legend>Livration à domicile:</legend>
+              <legend>Livraition à domicile:</legend>
               <img
                 src="../image/commande/livraison.jpg"
                 width="90%"
                 height="100px"
               /><br />
               <div class="inputs">
-                <label>Name: </label
+                <label>Nom: </label
                 ><input type="text" placeholder=" Votre nom" required />
-                <label>Address: </label
+                <label>Adresse: </label
                 ><input
                   type="address"
-                  placeholder=" votre address"
+                  placeholder=" Votre address"
                   required
                 />
                 <label>Numéro: </label
@@ -726,15 +725,15 @@
     
             <img class="col-sm-8" src="../image/index/map.jpg" frameborder="0"style="height:50%;width:50%"></img>
             <div id="aboutus" class="col-sm-4">
-                <h4> IZO Food :</h4>
-                <br>
+              <h4 style="color:#733279"> IZO Food :</h4>
+              <br>
                 <i class='fas fa-wifi' style='font-size:20px;'> </i>  Free Wifi
                 <br>
-                <i class='fas fa-at' style='font-size:20px'></i> <a href="#"> izofood@food.tn </a>
+                <i class='fas fa-at' style='font-size:20px'></i> <a href="mailto:com.goon@yandex.com"> izofood@food.tn </a>
                 <br>
                 <i class='fas fa-map-marker-alt' style='font-size:20px'></i>  Rue du Lac Biwa, Tunis
                 <br>
-                <i class='fas fa-phone' style='font-size:20px'></i> 99 999 999
+                <i class='fas fa-phone' style='font-size:20px'></i> 99 999 9999f
             </div>   
         </div>
         <div id="contactus" class="container">
@@ -743,8 +742,8 @@
                 <a href="www.facebook.com/izofood" >
                     <i class="fa fa-facebook-f"style='font-size:20px' ></i>
                 </a>
-                <a href="www.twitter.com/izofood">
-                    <i class="fa fa-twitter" style='font-size:20px'></i>
+                <a href="https://www.twitter.com/_comgoon" target="_blank">
+                  <i class="fa fa-twitter" style='font-size:20px'></i>
                 </a> 
                 <a href="www.youtube.com/izofood">
                     <i class="fa fa-youtube-play" style='font-size:20px'></i>
@@ -754,7 +753,9 @@
         
         <div class="container">
             <hr style="border:1px solid #733279">
-            <p style="text-align:center"> © Copyright 2019 </p>
+            <p style="text-align:center"> © Copyright 2019 - made with ❤ by
+              <a href="https://bit.ly/2De8dwt" target="_blank">ComGoon</a>
+            </p>
         </div>
     </footer>
 </body>
